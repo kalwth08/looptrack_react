@@ -35,7 +35,7 @@ jobs:
           port: ${{ secrets.FTP_PORT }}
           protocol: ftp
           local-dir: ./dist
-          server-dir: /home/tdql1zj34giv/public_html/looptrack_react
+          server-dir: /home/tdql1zj34giv/public_html/looptrack_react/
           exclude: |
             **/.git*
             **/.github/**
