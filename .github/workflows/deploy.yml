@@ -34,7 +34,7 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           port: ${{ secrets.FTP_PORT }}
           protocol: ftp
-          local-dir: ./dist
+          local-dir: ./dist/    # ← IMPORTANTE: termina con /
           server-dir: /home/tdql1zj34giv/public_html/looptrack_react/
           exclude: |
             **/.git*
