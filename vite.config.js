@@ -7,6 +7,10 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-  // 👇 Define la ruta base para servir la app en /looptrack_react/
-  base: '/looptrack_react/',
+  build: {
+    // Carpeta donde se generará el build de producción
+    outDir: 'looptrack_react',
+    // Limpia la carpeta antes de cada build
+    emptyOutDir: true,
+  },
 })
