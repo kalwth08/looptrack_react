@@ -7,4 +7,10 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
+  build: {
+    // Carpeta donde se generará el build de producción
+    outDir: 'looptrack_react',
+    // Limpia la carpeta antes de cada build
+    emptyOutDir: true,
+  },
 })
